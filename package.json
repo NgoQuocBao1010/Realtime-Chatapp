@@ -1,0 +1,29 @@
+{
+  "name": "realtimechatapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NgoQuocBao1010/Realtime-Chatapp.git"
+  },
+  "author": "Quoc Bao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NgoQuocBao1010/Realtime-Chatapp/issues"
+  },
+  "homepage": "https://github.com/NgoQuocBao1010/Realtime-Chatapp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
